@@ -1,5 +1,6 @@
 ## Learn More Python with Automate the Boring Stuff:
 ## https://automatetheboringstuff.com/chapter1/
+import numbers
 
 # Your First Program
 #
@@ -18,16 +19,19 @@ d = b / 2
 
 # What is type(a)?
 
+# integer
 
 # What is type(b)?
 
+# float
 
 # What is c?
 
+# float
 
 # What is d?
 
-
+# float
 
 # EXERCISES
 
@@ -36,18 +40,32 @@ f = list(range(0, 10))
 
 # What is type(e)?
 
+# list
 
 # What is len(e)?
 
+# 2
 
 # What is type(f)?
 
+#list
 
 # What are the contents of f?
 
+# contents are [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ]
 
 # What is 'list' called? # hint: google it
 
+# A list is simply called list
+
+# A list is used to store collections of items, where each item in the list can be of any data type, and the items are
+# ordered and mutable.
 
 # What is 'range' called? What happens when you run 'help(range)'?
+
+# In python range is a built in fuction. It's used to generate a sequence of numbers.
+# When you run help(range) in Python, it displays information about the range function, including its usage,
+# parameters, and return value.
+
+help(range)
 
